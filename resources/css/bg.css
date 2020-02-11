@@ -1,0 +1,7 @@
+#bg {
+    background: url('../images/background/bg1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
