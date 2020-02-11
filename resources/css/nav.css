@@ -1,6 +1,7 @@
 #header {
     margin-left: -10px;
     min-height: 97vh;
+    position: absolute;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
