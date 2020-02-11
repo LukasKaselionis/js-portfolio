@@ -12,43 +12,46 @@
 <body>
     <!-- Background -->
     <div id="bg">
+
+        <!-- Header -->
+        <header id="header">
+            <nav id="nav" class="menu">
+                <ul id="menu-primary" class="menu-primary">
+                    <div class="logo">
+                        <img src="./resources/images/lk_avatar.png">
+                    </div>
+                    <a href="#">
+                        <li class="menu-item">
+                            APIE MANE
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="menu-item">
+                            PROJEKTAI
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="menu-item">
+                            TECHNOLOGIJOS
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="menu-item">
+                            KONTAKTAI
+                        </li>
+                    </a>
+                </ul>
+            </nav>
+            <button id="toggle-button" class="menu-button" onclick="toggleNavigationMenu()"><i class="fas fa-angle-left"></i></button>
+        </header>
+
         <!-- Wrapper -->
         <div class="wrapper">
 
-            <!-- Header -->
-            <header id="header">
-                <nav id="nav" class="menu">
-                    <ul id="menu-primary" class="menu-primary">
-                        <div class="logo">
-                            <img src="./resources/images/lk_avatar.png">
-                        </div>
-                        <a href="#">
-                            <li class="menu-item">
-                                APIE MANE
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="menu-item">
-                                PROJEKTAI
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="menu-item">
-                                TECHNOLOGIJOS
-                            </li>
-                        </a>
-                        <a href="#">
-                            <li class="menu-item">
-                                KONTAKTAI
-                            </li>
-                        </a>
-                    </ul>
-                </nav>
-                <button id="toggle-button" class="menu-button" onclick="toggleNavigationMenu()"><i class="fas fa-angle-left"></i></button>
-            </header>
-
             <!-- Content -->
-            <main></main>
+            <main id="main" class="grid-container">
+                <div class="main-content"></div>
+            </main>
 
         </div>
         <!-- Footer -->
