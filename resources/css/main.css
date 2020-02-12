@@ -1,5 +1,6 @@
 @import 'bg.css';
 @import 'nav.css';
+@import 'content.css';
 * {
     box-sizing: border-box;
 }
@@ -16,16 +17,27 @@ body {
 
 .grid-container {
     display: grid;
-    grid-gap: 80px;
-    padding: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 450px;
+    grid-template-areas: ". a a ." ". a a .";
 }
 
 .main-content {
-    grid-area: 2 / 2 / 3 / 3;
-    background-color: rgba(255, 255, 255, 0.2);
-    width: 700px;
-    height: 750px;
-    box-shadow: 3px 3px 25px #000000;
+    grid-area: a;
+    align-self: center;
+    justify-self: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    max-width: 700px;
+    min-height: 50vh;
+    box-shadow: 3px 3px 25px #000000, -3px -3px 25px #000000;
+}
+
+#project,
+#technologies,
+#contact {
+    display: none;
 }
 
 .footer {

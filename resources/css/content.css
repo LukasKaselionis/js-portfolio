@@ -1,0 +1,23 @@
+.content {
+    padding: 10px;
+    color: #ffffff;
+    overflow: auto;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+hr {
+    border: 3px solid #ffffff;
+    opacity: 0.8;
+    margin-bottom: 25px;
+}
+
+.content-title {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.content-text {
+    padding: 15px;
+    overflow-wrap: break-word;
+}
