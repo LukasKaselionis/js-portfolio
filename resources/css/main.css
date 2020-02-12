@@ -17,18 +17,15 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: 450px;
-    grid-template-areas: ". a a ." ". a a .";
+    height: inherit;
 }
 
 .main-content {
-    grid-area: a;
     align-self: center;
-    justify-self: center;
+    justify-self: stretch;
     background-color: rgba(0, 0, 0, 0.2);
     overflow: hidden;
+    margin: 0 auto;
     max-width: 700px;
     min-height: 50vh;
     box-shadow: 3px 3px 25px #000000, -3px -3px 25px #000000;
