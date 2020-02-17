@@ -1,3 +1,11 @@
+/*
+Coral - #FB9C31
+Navajo White - #FBD293
+Crimson - #D92D12
+Gainsboro - #EBEBE3
+Dark Turquoise - #07ADAB
+*/
+
 .content {
     padding: 10px;
     color: #ffffff;
@@ -8,7 +16,6 @@
 
 hr {
     border: 3px solid #ffffff;
-    opacity: 0.8;
     margin-bottom: 25px;
 }
 

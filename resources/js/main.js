@@ -35,3 +35,5 @@ for (let i = 0; i < li_elements.length; i++) {
         }
     });
 }
+
+// Screen resize

@@ -1,6 +1,7 @@
 @import 'bg.css';
 @import 'nav.css';
 @import 'content.css';
+@import 'media.css';
 * {
     box-sizing: border-box;
 }
@@ -24,10 +25,10 @@ body {
     align-self: center;
     justify-self: stretch;
     background-color: rgba(0, 0, 0, 0.2);
-    overflow: hidden;
+    overflow: auto;
     margin: 0 auto;
     max-width: 700px;
-    min-height: 50vh;
+    max-height: 50vh;
     box-shadow: 3px 3px 25px #000000, -3px -3px 25px #000000;
 }
 
@@ -38,7 +39,7 @@ body {
 }
 
 .footer {
-    color: #ffffff;
+    color: #000000;
     opacity: 0.8;
     text-align: center;
     margin: 0;
