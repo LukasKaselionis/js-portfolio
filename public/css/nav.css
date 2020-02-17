@@ -40,6 +40,7 @@ Dark Turquoise - #07ADAB
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    filter: brightness(0);
 }
 
 .logo img {
