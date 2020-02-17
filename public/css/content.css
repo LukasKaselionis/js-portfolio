@@ -8,13 +8,12 @@ Dark Turquoise - #07ADAB
 
 .content {
     height: inherit;
-    padding: 10px;
-    font-size: 15px;
+    padding: 15px 35px;
+    font-size: 12px;
 }
 
 .content-title {
-    color: #ffffff;
-    margin-bottom: 10px;
+    color: #07ADAB;
 }
 
 .content-text {

@@ -40,7 +40,6 @@ Dark Turquoise - #07ADAB
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    filter: brightness(0);
 }
 
 .logo img {
@@ -55,11 +54,12 @@ Dark Turquoise - #07ADAB
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transition: 2s ease-out;
+    transition-delay: 0.7s;
+    transition-duration: 1.2s;
 }
 
 .menu-primary-hidden {
-    transition: 0.5s ease-in;
+    transition: 1ms ease-in-out;
     opacity: 0;
     visibility: hidden;
 }
