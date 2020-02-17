@@ -7,16 +7,9 @@ Dark Turquoise - #07ADAB
 */
 
 .content {
+    height: inherit;
     padding: 10px;
-    color: #ffffff;
-    overflow: auto;
     font-size: 15px;
-    line-height: 1.5;
-}
-
-hr {
-    border: 3px solid #ffffff;
-    margin-bottom: 25px;
 }
 
 .content-title {
@@ -25,6 +18,5 @@ hr {
 }
 
 .content-text {
-    padding: 15px;
     overflow-wrap: break-word;
 }

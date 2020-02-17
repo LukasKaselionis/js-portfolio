@@ -24,12 +24,10 @@ body {
 .main-content {
     align-self: center;
     justify-self: stretch;
-    background-color: rgba(0, 0, 0, 0.2);
-    overflow: auto;
-    margin: 0 auto;
+    background-color: #EEEDE7;
+    color: #000000;
     max-width: 700px;
-    max-height: 50vh;
-    box-shadow: 3px 3px 25px #000000, -3px -3px 25px #000000;
+    border: 1px solid black;
 }
 
 #project,
