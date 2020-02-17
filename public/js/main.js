@@ -37,3 +37,19 @@ for (let i = 0; i < li_elements.length; i++) {
 }
 
 // Screen resize
+
+screen();
+window.addEventListener('resize', screen)
+
+function screen() {
+    let nav = document.getElementById('nav');
+    let menu = document.getElementById('menu-primary');
+
+    if (window.innerWidth < 768) {
+        nav.classList.add('menu-hidden');
+        menu.classList.add('menu-primary-hidden');
+    } else {
+        nav.classList.remove('menu-hidden');
+        menu.classList.remove('menu-primary-hidden');
+    }
+}
