@@ -1,46 +1,72 @@
-@media only screen and (min-width: 768px) {
-    .main-content {
-        margin: 0 auto;
+    @media only screen and (min-width: 768px) {
+        .main-content {
+            margin: 0 auto;
+        }
     }
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767.99px) {
-    #bg {
-        background: url('../images/background/bg_1025.jpg');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        min-height: 100vh;
+    
+    @media screen and (max-height:700px) {
+        .content {
+            font-size: 11px;
+            line-height: 1;
+        }
+        .main-content {
+            overflow: scroll;
+        }
     }
-    .content {
-        font-size: 11px;
-        line-height: 1;
+    
+    @media only screen and (min-width: 480px) and (max-width: 767.99px) {
+        #bg {
+            background: url('../images/background/bg_1025.jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+        }
+        .content {
+            font-size: 11px;
+            line-height: 1;
+        }
+        .main-content {
+            overflow: scroll;
+            max-height: 90vh;
+            margin: 0 55px;
+        }
+        .menu {
+            background-color: #EBEBE3;
+        }
+        .menu-button i {
+            transform: rotate(180deg);
+            transition: 0.5s ease-in-out;
+        }
+        .menu-button-toggle i {
+            transform: rotate(360deg);
+            transition: 0.5s ease-in-out;
+        }
     }
-    .main-content {
-        overflow: scroll;
-        max-height: 90vh;
-        margin: 0 55px;
+    
+    @media only screen and (max-width: 479.99px) {
+        #bg {
+            background: url('../images/background/bg_480.jpg');
+            background-repeat: repeat-y;
+            background-attachment: fixed;
+        }
+        .main-content {
+            margin: 0 42px !important;
+        }
+        .content {
+            font-size: 11px;
+            line-height: 1;
+        }
+        .main-content {
+            overflow: scroll;
+            max-height: 90vh;
+        }
+        .menu-button i {
+            transform: rotate(180deg);
+            transition: 0.5s ease-in-out;
+        }
+        .menu-button-toggle i {
+            transform: rotate(360deg);
+            transition: 0.5s ease-in-out;
+        }
     }
-    .menu {
-        background-color: #EBEBE3;
-    }
-}
-
-@media only screen and (max-width: 479.99px) {
-    #bg {
-        background: url('../images/background/bg_480.jpg');
-        background-repeat: repeat-y;
-        background-attachment: fixed;
-    }
-    .main-content {
-        margin: 0 42px !important;
-    }
-    .content {
-        font-size: 11px;
-        line-height: 1;
-    }
-    .main-content {
-        overflow: scroll;
-        max-height: 90vh;
-    }
-}
