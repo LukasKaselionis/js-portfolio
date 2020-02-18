@@ -20,3 +20,11 @@ Dark Turquoise - #07ADAB
 .content-text {
     overflow-wrap: break-word;
 }
+
+.content-image {
+    background: url('../images/infobar/info_qpaalo_c_scale\,w_1147.jpg');
+    background-position: center;
+    background-size: cover;
+    width: inherit;
+    height: 200px;
+}

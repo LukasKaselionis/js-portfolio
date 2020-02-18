@@ -27,6 +27,7 @@ body {
     background-color: #EEEDE7;
     color: #000000;
     max-width: 700px;
+    max-height: 85vh;
     border: 1px solid black;
 }
 

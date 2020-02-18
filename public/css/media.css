@@ -4,11 +4,7 @@
         }
     }
     
-    @media screen and (max-height:700px) {
-        .content {
-            font-size: 11px;
-            line-height: 1;
-        }
+    @media screen and (max-height:1400px) {
         .main-content {
             overflow: scroll;
         }
@@ -30,6 +26,13 @@
             overflow: scroll;
             max-height: 90vh;
             margin: 0 55px;
+        }
+        .content-image {
+            background: url('../images/infobar/info_qpaalo_c_scale\,w_610.jpg');
+            background-position: center;
+            background-size: cover;
+            width: inherit;
+            height: 140px;
         }
         .menu {
             background-color: #EBEBE3;
@@ -68,5 +71,12 @@
         .menu-button-toggle i {
             transform: rotate(360deg);
             transition: 0.5s ease-in-out;
+        }
+        .content-image {
+            background: url('../images/infobar/info_qpaalo_c_scale\,w_200.jpg');
+            background-position: center;
+            background-size: cover;
+            width: inherit;
+            height: 80px;
         }
     }
